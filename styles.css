@@ -1,0 +1,535 @@
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.header{
+    border-bottom: .2rem solid grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav{
+float: right;
+margin-top: -5rem;
+margin-right: -1.2rem;
+overflow-x: hidden;
+box-shadow: 0px 4px 6px rgba(2, 2, 2, 0.1);
+}
+.nav ul li {
+    display: inline-block;
+    margin-right: 6rem;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #0f0469;
+}
+.nav li a:hover{
+    background-color: #0f0469;
+    color: aliceblue;
+    padding: 1rem;
+}
+.main{
+background-image: url(.//images/beautiful-african-american-doctor-couple-white.jpg);
+height: 80vh;
+width: 100%;
+background-size: contain;
+background-repeat: no-repeat;
+overflow: hidden;
+}
+.mainsec1{
+    float: right;
+    background-color: rgba(23, 8, 58, 0.875);
+    width: 30rem;
+    height: 18rem;
+    margin-top: 15rem;
+    margin-right: 15rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: 25px 3px 6px rgba(68, 68, 68, 0.1);
+    color: #efefef;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mainsec1 p{
+   line-height: 1.3rem; 
+   color: rgb(212, 212, 212);
+   width: 28rem;
+   font-size: 1.2rem;
+}
+.mainsec1 .healthy{
+    line-height: 1.3rem; 
+    color: rgb(14, 228, 14);
+    width: 28rem;
+ }
+.mainsec1 button{
+    background-color: rgb(6, 162, 162);
+    width: 20rem;
+    height: 3.5rem;
+    color: #efefef;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+ }
+
+ .mainsec1 button:hover{
+    background-color: rgb(2, 91, 91);
+   
+ }
+
+#services{
+    width: 100%;
+    height: 30rem;
+    background-color: aliceblue;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    box-shadow: 25px 3px 6px rgba(68, 68, 68, 0.1);
+}
+#services h2{
+    background-color: rgb(3, 3, 78);
+    width: 15rem;
+    padding: 1rem;
+    color: #efefef;
+    margin-left: 2rem;
+}
+#services h3{
+    font-size: 2rem;
+    text-align: center;
+}
+#services .card1{
+    width: 20rem;
+    height: 16rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+#services .card2{
+    width: 20rem;
+    height: 16rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#services .card3{
+    width: 20rem;
+    height: 16rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#services p{
+    text-align: center;
+}
+
+.main1{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.abt_card{
+    width: 30rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: .3rem solid lightblue;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.abt_card h4{
+    background-color: rgb(3, 3, 78);
+    width: 15rem;
+    padding: 1rem;
+    color: #efefef;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.abt_img{
+    margin-top: 2rem;
+    overflow-x: hidden;
+    border-radius: 2rem;
+}
+
+.footer{
+   width: 100%;
+   background-color:rgb(12, 1, 39);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 15rem;
+   gap: 15rem;
+}
+
+.footer_img{
+margin-left: 2rem;
+position: relative;
+padding: 20px;
+border-right: .2rem #8e8e8e solid;
+/* Adjust padding as needed */ 
+}
+
+.contacts{
+display: flex;
+gap: 15rem;
+}
+
+h5{
+   text-align: center;
+}
+
+ 
+ @media (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+    .header{
+        margin-left: 4rem;
+    }
+    .nav{
+    margin-right: -4rem;
+    overflow-x: hidden;
+    box-shadow: 0px 4px 6px rgba(2, 2, 2, 0.1);
+    }
+   main{
+    margin-left: 5rem;
+   }
+    .mainsec1{
+        margin-top: 20rem;
+        margin-right: -1rem;
+    }
+     #services{
+        width: 63rem;
+        height: 30rem;
+        background-color: aliceblue;
+        text-transform: capitalize;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        box-shadow: 25px 3px 6px rgba(68, 68, 68, 0.1);
+    }
+    #services h2{
+        background-color: rgb(3, 3, 78);
+        width: 15rem;
+        padding: 1rem;
+        color: #efefef;
+        margin-left: .5rem;
+        font-size: 1.5rem;
+    }
+    #services h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #services .card1{
+        width: 23rem;
+        height: 18rem;
+        background-color: rgb(255, 255, 255);
+        padding: 2rem;
+        margin: 0 auto;
+        border-radius: .5rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #services .card2{
+        width: 25rem;
+        height: 18rem;
+        background-color: rgb(255, 255, 255);
+        padding: 2rem;
+        margin: 0 auto;
+        border-radius: .5rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #services .card3{
+        width: 20rem;
+        height: 18rem;
+        background-color: rgb(255, 255, 255);
+        padding: 2rem;
+        margin: 0 auto;
+        border-radius: .5rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #services p{
+        text-align: center;
+    }
+    
+    .main1{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .abt_card{
+        width: 30rem;
+        margin-left: 8.5rem;
+        margin-top: 2rem;
+        border: .3rem solid lightblue;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .abt_card h4{
+        background-color: rgb(3, 3, 78);
+        width: 15rem;
+        padding: 1rem;
+        color: #efefef;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+    }
+   .abt_img img{
+    width: 30rem;
+   }
+    
+     }
+    .footer{
+       width: 63rem;
+       background-color:rgb(12, 1, 39);
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       height: 15rem;
+       gap: 10rem;
+    }
+    
+    .footer_img{
+    margin-left: 2rem;
+    padding: 20px;
+    border-right: .2rem #8e8e8e solid;
+    /* Adjust padding as needed */ 
+    }
+    
+    .contacts{
+    display: flex;
+    gap: 2rem;
+    }
+    .contacts a img {
+        width: 5rem;
+    }
+    
+    h5{
+       text-align: center;
+    }
+    
+ 
+ 
+ @media (max-width: 480px) {
+    body {
+        background-color: aliceblue;
+    }
+    html{
+        font-size: 10px;
+        overflow-x: hidden;
+    }
+    .mainsec1{
+        width:22rem;
+        height: 15rem;
+        margin-right: 1.2rem;
+        margin-top: 30rem;
+    }
+    .mainsec1 p{
+        width:20rem;
+    }
+    .header{
+        border-bottom: .2rem solid grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .nav{
+    float: right;
+    margin-top: -5rem;
+    margin-right: -.2rem;
+    overflow-x: hidden;
+    box-shadow: 0px 4px 6px rgba(2, 2, 2, 0.1);
+    }
+    .nav ul li {
+        display: inline-block;
+        margin-right: .1rem;
+    }
+    
+    .main{
+    background-image: url(.//images/beautiful-african-american-doctor-couple-white.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    }
+    .mainsec1{
+        background-color: rgba(23, 8, 58, 0.875);
+        width: 17rem;
+        height: 15rem;
+        border-radius: 2rem;
+        margin-top: 15rem;
+    }
+    .mainsec1 p{
+       line-height: 1.3rem; 
+       color: rgb(212, 212, 212);
+       width: 20rem;
+       font-size: 1rem;
+    }
+    .mainsec1 .healthy{
+        line-height: 1.3rem; 
+        color: rgb(14, 228, 14);
+        width: 28rem;
+     }
+    .mainsec1 button{
+        background-color: rgb(6, 162, 162);
+        width: 13rem;
+        height: 3.5rem;
+        color: #efefef;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+     }
+    
+     .mainsec1 button:hover{
+        background-color: rgb(2, 91, 91);
+       
+     }
+     .footer{
+        width: 100%;
+        background-color:rgb(12, 1, 39);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 15rem;
+        gap: 15rem;
+        margin-top: 30rem;
+    }
+    
+    .footer_img{
+    margin-left: 2rem;
+    padding: 20px;
+    }
+    .footer_img img{
+       width: 8rem;
+        }
+    .contacts{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: -15rem;
+    }
+
+    .contacts a img{
+       width: 2rem;
+        }
+    
+    h5{
+        text-align: center;
+    }
+    
+    
+    #services{
+        width: 100%;
+        height: 30rem;
+        background-color: aliceblue;
+        text-transform: capitalize;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 28rem;
+        box-shadow: 25px 3px 6px rgba(68, 68, 68, 0.1);
+    }
+    #services h2{
+        background-color: rgb(3, 3, 78);
+        width: 15rem;
+        padding: 1rem;
+        color: #efefef;
+        margin-left: 2rem;
+    }
+    #services h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    #services .card1{
+        width: 18rem;
+        height: 20rem;
+       
+    }
+    #services .card2{
+        width: 18rem;
+        height: 20rem;
+       
+    }
+    #services .card3{
+        width: 18rem;
+        height: 20rem;
+      
+    }
+    #services p{
+        text-align: center;
+    }
+    
+    .main1{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .abt_card{
+        width: 30rem;
+        margin-left: 2rem;
+        margin-top: -22rem;
+        border: .3rem solid lightblue;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .abt_card h4{
+        background-color: rgb(3, 3, 78);
+        width: 15rem;
+        padding: 1rem;
+        color: #efefef;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+    }
+    .abt_img{
+        display: none;
+    }
+
+ }
+
+  
