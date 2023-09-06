@@ -391,6 +391,7 @@ h5{
         height: 15rem;
         gap: rem;
         margin-top: 35rem;
+        overflow-x: hidden;
     }
     
     .footer_img{
@@ -434,6 +435,7 @@ h5{
         align-items: center;
         margin-top: 33rem;
         box-shadow: 25px 3px 6px rgba(68, 68, 68, 0.1);
+        overflow-x: hidden;
     }
     #services h2{
         background-color: rgb(3, 3, 78);
@@ -471,6 +473,7 @@ h5{
         align-items: center;
         justify-content: center;
         margin-top: -5rem;
+        overflow-x: hidden;
     }
     .abt_card{
         height: 15rem;
