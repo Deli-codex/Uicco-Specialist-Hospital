@@ -238,7 +238,7 @@ h5{
         align-items: center;
         margin-top: 25rem;
         margin-left: -2rem;
-        box-shadow: 25px 3px 6px rgba(68, 68, 68, 0.1);
+        
     }
     #services h2{
         background-color: rgb(3, 3, 78);
@@ -361,7 +361,6 @@ h5{
         width: 20rem;
     }
     .header{
-        overflow-x: hidden;
         margin-left: .5rem;
         border-bottom: .2rem solid grey;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -371,7 +370,6 @@ h5{
     .nav{
     margin-top: -10rem;
     margin-left: .1rem;
-    overflow-x: hidden;
     border: none;
     }
     .nav ul li {
@@ -380,6 +378,7 @@ h5{
         align-items: flex-start;
         justify-content: flex-start;
         gap: .4rem;
+        overflow-x: hidden;
     }
     
      .footer{
@@ -391,7 +390,7 @@ h5{
         height: 15rem;
         gap: rem;
         margin-top: 35rem;
-        overflow-x: hidden;
+    
     }
     
     .footer_img{
@@ -435,7 +434,7 @@ h5{
         align-items: center;
         margin-top: 33rem;
         box-shadow: 25px 3px 6px rgba(68, 68, 68, 0.1);
-        overflow-x: hidden;
+       
     }
     #services h2{
         background-color: rgb(3, 3, 78);
@@ -473,7 +472,6 @@ h5{
         align-items: center;
         justify-content: center;
         margin-top: -5rem;
-        overflow-x: hidden;
     }
     .abt_card{
         height: 15rem;
