@@ -340,7 +340,7 @@ h5{
         background-color: aliceblue;
     }
     html{
-        font-size: 10px;
+        font-size: 11px;
         overflow-x: hidden;
     }
     .mainsec1{
@@ -474,7 +474,7 @@ h5{
         height: 15rem;
         width: 23rem;
         margin-left: 9rem;
-        margin-top: 4rem;
+        margin-top: -6rem;
         border: .3rem solid lightblue;
         border-radius: 1rem;
         padding: 2rem;
