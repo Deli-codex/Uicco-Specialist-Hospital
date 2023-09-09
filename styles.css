@@ -20,8 +20,6 @@ body{
 float: right;
 margin-top: -5rem;
 margin-right: -1.2rem;
-overflow-x: hidden;
-box-shadow: 0px 4px 6px rgba(2, 2, 2, 0.1);
 }
 .nav ul li {
     display: inline-block;
@@ -39,31 +37,31 @@ box-shadow: 0px 4px 6px rgba(2, 2, 2, 0.1);
 }
 .main{
 background-image: url(.//images/beautiful-african-american-doctor-couple-white.jpg);
-height: 80vh;
-width: 100%;
+height: 100vh;
+width: 100vw;
 background-size: contain;
 background-repeat: no-repeat;
-overflow: hidden;
 }
 .mainsec1{
     float: right;
     background-color: rgba(23, 8, 58, 0.875);
-    width: 30rem;
-    height: 18rem;
-    margin-top: 15rem;
-    margin-right: 15rem;
-    padding: 3rem;
+    width: 25rem;
+    height: 15rem;
+    margin-top: 20rem;
+    margin-right: 2rem;
+    padding: 2rem;
     border-radius: 2rem;
     box-shadow: 25px 3px 6px rgba(68, 68, 68, 0.1);
     color: #efefef;
     text-transform: capitalize;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 .mainsec1 p{
    line-height: 1.3rem; 
    color: rgb(212, 212, 212);
-   width: 28rem;
-   font-size: 1.2rem;
+   width: 25rem;
+   font-size: 1rem;
 }
 .mainsec1 .healthy{
     line-height: 1.3rem; 
@@ -72,8 +70,8 @@ overflow: hidden;
  }
 .mainsec1 button{
     background-color: rgb(6, 162, 162);
-    width: 20rem;
-    height: 3.5rem;
+    width: 15rem;
+    height: 3rem;
     color: #efefef;
     font-size: 1.2rem;
     text-transform: capitalize;
@@ -97,18 +95,17 @@ overflow: hidden;
 }
 #services h2{
     background-color: rgb(3, 3, 78);
-    width: 15rem;
+    width: 12rem;
     padding: 1rem;
     color: #efefef;
-    margin-left: 2rem;
 }
 #services h3{
     font-size: 2rem;
     text-align: center;
 }
 #services .card1{
-    width: 20rem;
-    height: 16rem;
+    width: 15rem;
+    height: 22rem;
     background-color: rgb(255, 255, 255);
     padding: 2rem;
     margin: 0 auto;
@@ -121,8 +118,8 @@ overflow: hidden;
     gap: .5rem;
 }
 #services .card2{
-    width: 20rem;
-    height: 16rem;
+    width: 15rem;
+    height: 22rem;
     background-color: rgb(255, 255, 255);
     padding: 2rem;
     margin: 0 auto;
@@ -134,8 +131,8 @@ overflow: hidden;
     align-items: center;
 }
 #services .card3{
-    width: 20rem;
-    height: 16rem;
+    width: 15rem;
+    height: 22rem;
     background-color: rgb(255, 255, 255);
     padding: 2rem;
     margin: 0 auto;
@@ -186,11 +183,11 @@ overflow: hidden;
    flex-direction: row;
    align-items: center;
    height: 15rem;
-   gap: 15rem;
+   gap: 5rem;
 }
 
 .footer_img{
-margin-left: 2rem;
+margin-left: 1rem;
 position: relative;
 padding: 20px;
 border-right: .2rem #8e8e8e solid;
@@ -199,14 +196,106 @@ border-right: .2rem #8e8e8e solid;
 
 .contacts{
 display: flex;
-gap: 15rem;
+gap: 5rem;
 }
-
+.contacts a{
+    color: #efefef;
+}
 h5{
    text-align: center;
 }
 
- 
+ @media (max-width: 1024px){
+    main{
+        margin-left: 5rem;
+        width: 100%;
+       }
+        .mainsec1{
+            margin-top: 18rem;
+            margin-right: -1rem;
+            padding: 1rem;
+            width: 30rem;
+        }
+         #services{
+            margin-top: -1rem;
+            width: 100vw;
+            height: 150rem;
+            background-color: aliceblue;
+            text-transform: capitalize;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        #services h2{
+            background-color: rgb(3, 3, 78);
+            width: 15rem;
+            padding: 1rem;
+            color: #efefef;
+            margin-left: .5rem;
+            font-size: 1.5rem;
+        }
+        #services h3{
+            font-size: 3rem;
+            line-height: 3rem;
+            text-align: center;
+        }
+        #services .card1{
+            width: 35rem;
+            height: 35rem;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            margin: 0 auto;
+        }
+        #services .card2{
+            width: 35rem;
+            height: 35rem;
+            font-size: 1.5rem;
+            line-height: 2rem; 
+        }
+        #services .card3{
+            width: 35rem;
+            height: 35rem;
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+        #services p{
+            text-align: center;
+        }
+        
+        .main1{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: -10rem;
+            width: 100%;
+        }
+        .abt_card{
+            width: 30rem;
+            font-size: 1.5rem;
+            margin-left: 2.5rem;
+            margin-top: 10rem;
+            border: .3rem solid lightblue;
+            border-radius: 1rem;
+            padding: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            line-height: 2rem;
+        }
+        .abt_card h4{
+            background-color: rgb(3, 3, 78);
+            width: 15rem;
+            padding: 1rem;
+            color: #efefef;
+            font-size: 1.4rem;
+            text-transform: capitalize;
+        }
+       .abt_img img{
+        width: 50rem;
+       }
+ }
   @media (max-width: 768px){
     html{
         font-size: 15px;
@@ -217,19 +306,21 @@ h5{
     }
     .nav{
     margin-right: -4rem;
-    overflow-x: hidden;
     box-shadow: 0px 4px 6px rgba(2, 2, 2, 0.1);
     }
    main{
     margin-left: 5rem;
+    width: 100%;
    }
     .mainsec1{
-        margin-top: 30rem;
+        margin-top: 14rem;
         margin-right: -1rem;
+        padding: 1rem;
+        width: 30rem;
     }
      #services{
         margin-top: -1rem;
-        width: 55rem;
+        width: 63rem;
         height: 150rem;
         background-color: aliceblue;
         text-transform: capitalize;
@@ -281,7 +372,7 @@ h5{
         align-items: center;
         justify-content: center;
         margin: 0 auto;
-   
+        margin-top: -1.5rem;
     }
     .abt_card{
         width: 30rem;
@@ -350,20 +441,13 @@ margin-left: -9rem;
     .mainsec1{
         width:22rem;
         height: 15rem;
-        margin-right: 1.2rem;
-        margin-top: -10rem;
+        margin-right: .5rem;
+        margin-top: 19.2rem;
         padding: 3rem;
     }
-    .mainsec1 h1{
-        margin-top: -1rem;
-    }
-    .mainsec1 p{
-        width:20rem;
-        align-items: justify;
-    }
-    .mainsec1 button{
-        width: 20rem;
-    }
+  .mainsec1 p{
+    width: 25rem;
+  }
     .header{
         margin-left: .5rem;
         border-bottom: .2rem solid grey;
@@ -372,7 +456,7 @@ margin-left: -9rem;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
     .nav{
-    margin-top: -10rem;
+    margin-top: -9rem;
     margin-left: .1rem;
     border: none;
     }
@@ -392,7 +476,7 @@ margin-left: -9rem;
         flex-direction: column;
         align-items: center;
         height: 15rem;
-        margin-top: 35rem;
+        margin-top: 50rem;
     
     }
     
@@ -434,13 +518,11 @@ margin-left: -9rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 33rem;
-       
+        margin-top: 50rem;
     }
     #services h2{
         background-color: rgb(3, 3, 78);
         width: 15rem;
-        padding: 1rem;
         color: #efefef;
         margin-left: .5rem;
     }
@@ -449,18 +531,18 @@ margin-left: -9rem;
         text-align: center;
     }
     #services .card1{
-        width: 18rem;
-        height: 24rem;
+        width: 23rem;
+        height: 35rem;
        
     }
     #services .card2{
-        width: 18rem;
-        height: 24rem;
+        width: 23rem;
+        height: 35rem;
        
     }
     #services .card3{
-        width: 18rem;
-        height: 24rem;
+        width: 23rem;
+        height: 35rem;
       
     }
     #services p{
@@ -475,24 +557,16 @@ margin-left: -9rem;
         margin-top: -5rem;
     }
     .abt_card{
-        height: 15rem;
-        width: 23rem;
-        margin-left: 9rem;
+        height: 35rem;
+        width: 20rem;
+        margin-left: .7rem;
         margin-top: -6rem;
         border: .3rem solid lightblue;
         border-radius: 1rem;
         padding: 2rem;
     
     }
-    .abt_card h4{
-        background-color: rgba(3, 3, 78, 0.901);
-        width: 15rem;
-        padding: 1rem;
-        color: #efefef;
-        font-size: 1.4rem;
-        text-transform: capitalize;
-        margin-top: .1rem;
-    }
+   
     .abt_img{
         display: none;
     }
